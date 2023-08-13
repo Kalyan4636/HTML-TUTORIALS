@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Examination Form</title>
+  <style>
+    body {
+      background-color: #fff;
+      font-family: sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      color: #000;
+      font-size: 2em;
+    }
+
+    label {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #8c5b5b;
+      margin-bottom: 10px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #cccccc;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #5a0f0f;
+      color: #a91717;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fcfcfc;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .col-25 {
+      width: 25%;
+    }
+
+    .col-75 {
+      width: 75%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Examination Form</h2>
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email:</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject:</label>
+      </div>
+      <div class="col-75">
+        <select id="subject" name="subject">
+          <option value="Math">Math</option>
+          <option value="Science">Science</option>
+          <option value="English">English</option>
+          <option value="History">History</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="score">Score:</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="score" name="score">
+      </div>
+    </div>
+    <input type="submit" value="Submit">
+  </div>
+</body>
+</html>
+</body>
+</html>
