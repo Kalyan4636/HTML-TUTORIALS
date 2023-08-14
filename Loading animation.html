@@ -1,0 +1,66 @@
+> web.htmlcss:
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+
+
+body{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+}
+.items{
+  width:70px;
+  height:10px;
+  border-radius:50px;
+  background:red;
+  transform-origin:0px 100px;
+  animation:a 2s linear alternate
+            infinite;
+
+}
+.item1{
+      background:red;
+      animation-delay:0s;
+}
+.item2{
+      background:black;
+      animation-delay:0.5s;
+}
+.item3{
+
+     background:yellow;
+     animation-delay:1s;
+}
+@keyframes a{
+    0%{
+       background:yellow;
+       height:1px;
+    }
+    50%{
+     background:#262626;
+     height:30px;
+    }
+    
+    100%{
+     background:red;
+     height:100px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+    <div class="items item1"></div>
+    <div class="items item2" ></div>
+    <div class="items item3" ></div>
+    
+</div>
+</body>
+</html>
+
+
