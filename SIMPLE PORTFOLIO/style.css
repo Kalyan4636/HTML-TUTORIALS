@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  main {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Additional CSS for a more attractive portfolio website */
+  
+  body {
+    background-image: url("engineer-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  section {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.5rem;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #ccc;
+  }

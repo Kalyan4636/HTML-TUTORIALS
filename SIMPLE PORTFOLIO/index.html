@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ ADITYA KALYAN JHA }} - Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ ADITYA KALYAN JHA }}</h1>
+    <h2> FRONTEND DEVELOPER </h2>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>{{ Engineer's bio }}</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        {{ for skill in Engineer's skills }}
+          <li>{{ skill }}</li>
+        {{ endfor }}
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        {{ for project in Engineer's projects }}
+          <li>
+            <a href="{{ project.link }}">{{ project.name }}</a>
+            <p>{{ project.description }}</p>
+          </li>
+        {{ endfor }}
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <ul>
+        {{ for contact in Engineer's contact }}
+          <li>
+            {{ contact.type }}: {{ contact.value }}
+          </li>
+        {{ endfor }}
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; {{ 2023 }} {{ ADITYA KALYAN JHA }}</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
