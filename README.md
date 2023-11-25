@@ -1,7 +1,7 @@
-# HTML-TUTORIALS
+# WEB DEVELOPMENT TUTORIALS
 Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML &amp; CSS.
 
-HTML and CSS with our step-by-step tutorial.
+**HTML and CSS with our step-by-step tutorial.**
 
 # ARROW HIT GAME FINAL OUTPUT:-
 ![arrow final output](https://github.com/Kalyan4636/HTML-TUTORIALS/assets/79601235/817f8aec-51ce-4538-945d-75fbc54d4dd3)
